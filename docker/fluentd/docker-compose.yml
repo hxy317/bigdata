@@ -9,7 +9,7 @@ services:
       - "5140:5140"
       - "8888:8888"
     volumes:
-      - /data1/logs/cv:/home/fluent
+      - /bigdata/logs:/home/fluent
       - ./etc:/fluentd/etc
     environment:
       - FLUENT_UID=0
