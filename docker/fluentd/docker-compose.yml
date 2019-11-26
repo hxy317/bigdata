@@ -1,0 +1,15 @@
+version: "3"
+services:
+  fluentd:
+    restart: always
+    image: fluent/fluentd:v1.3-debian-onbuild
+    ports:
+      - "24224:24224"
+      - "24224:24224/udp"
+      - "5140:5140"
+      - "8888:8888"
+    volumes:
+      - /data1/logs/cv:/home/fluent
+      - ./etc:/fluentd/etc
+    environment:
+      - FLUENT_UID=0
