@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0a070d26-edf8-49c5-8769-6c6915158112" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/fluentd/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/fluentd/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/fluentd/etc/conf.d/td.conf" beforeDir="false" afterPath="$PROJECT_DIR$/docker/fluentd/etc/conf.d/td.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/mysql/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/docker-compose.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +136,7 @@
       <workItem from="1574333384401" duration="1487000" />
       <workItem from="1574761436767" duration="624000" />
       <workItem from="1574762105782" duration="4231000" />
-      <workItem from="1574821872656" duration="8067000" />
+      <workItem from="1574821872656" duration="11608000" />
     </task>
     <servers />
   </component>

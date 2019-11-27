@@ -6,9 +6,8 @@ services:
     ports:
       - "24224:24224"
       - "24224:24224/udp"
-
+      - "5140:5140"
+      - "8888:8888"
     volumes:
       - ~/bigdata/logs:/fluentd/log
       - ./etc:/fluentd/etc
-#    environment:
-#      - FLUENT_UID=0
