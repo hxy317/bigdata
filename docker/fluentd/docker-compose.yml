@@ -9,5 +9,5 @@ services:
       - "5140:5140"
       - "8888:8888"
     volumes:
-      - ~/bigdata/logs:/fluentd/log
+      - /fluentd/log:/fluentd/log
       - ./etc:/fluentd/etc
