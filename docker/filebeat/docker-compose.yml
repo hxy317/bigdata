@@ -1,0 +1,15 @@
+version: '3'
+services:
+  test:
+    restart: always
+    image: elastic/filebeat:6.4.3
+    user: root
+    volumes:
+      - /bigdata/test.yml:/usr/share/filebeat/filebeat.yml:ro
+      - /fluentd/log/:/logs
+#  video:
+#    restart: always
+#    image: elastic/filebeat:6.4.3
+#    volumes:
+#      - ./config/video.yml:/filebeat.yml
+#      - /fluentd/log/:/logs

@@ -1,0 +1,22 @@
+filebeat.inputs:
+  - type: log
+    paths:
+      - /logs/test.link
+    symlinks: true
+    tail_files: true
+    processors:
+      - dissect:
+          tokenizer: "%{time}\t%{tag}\t%{record}"
+          target_prefix: "log"
+output.kafka:
+  hosts: ["192.168.201.153:9092"]
+  topic: "test"
+  version: 1.1.0
+  required_acks: 1
+  compression: none
+  keep_alive: 10s
+  client_id: beat_test_api
+  codec.format:
+    string: '%{[log.record]}'
+logging.level: warning
+logging.metrics.enabled: false

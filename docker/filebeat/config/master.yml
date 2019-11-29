@@ -1,0 +1,21 @@
+filebeat.inputs:
+  - type: log
+    paths:
+      - /logs/master.link
+    symlinks: true
+    tail_files: true
+    processors:
+      - dissect:
+          tokenizer: "%{time}\t%{tag}\t%{record}"
+          target_prefix: "log"
+output.kafka:
+  hosts: ["127.0.0.1:9092"]
+  topic: 'report-master'
+  version: 1.1.0
+  required_acks: 1
+  keep_alive: 10s
+  client_id: beat_master
+  codec.format:
+    string: '%{[log.record]}'
+logging.level: warning
+logging.metrics.enabled: false
