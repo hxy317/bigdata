@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a070d26-edf8-49c5-8769-6c6915158112" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/fluentd/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/fluentd/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/fluentd/etc/conf.d/td.conf" beforeDir="false" afterPath="$PROJECT_DIR$/docker/fluentd/etc/conf.d/td.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/zookeeper/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/zookeeper/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com.bigdata/Fluent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com.bigdata/Fluent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/filebeat/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/filebeat/docker-compose.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -154,7 +150,7 @@
       <workItem from="1574761436767" duration="624000" />
       <workItem from="1574762105782" duration="4231000" />
       <workItem from="1574821872656" duration="35029000" />
-      <workItem from="1575015937946" duration="8138000" />
+      <workItem from="1575015937946" duration="8455000" />
     </task>
     <servers />
   </component>

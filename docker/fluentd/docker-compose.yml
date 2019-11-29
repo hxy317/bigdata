@@ -9,6 +9,7 @@ services:
       - "5140:5140"
       - "8888:8888"
     volumes:
-#      - /fluentd/log:/fluentd/log
+#      - /fluentd/log:/fluentd/log  选用根目录的目的为 link时 宿主机有效
+
       - /fluentd/log:/home/fluent
       - ./etc:/fluentd/etc

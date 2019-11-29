@@ -5,6 +5,7 @@ services:
     image: elastic/filebeat:6.4.3
     user: root
     volumes:
+      # /bigdata/ 必须 和 /usr/share/filebeat/ 路径用户一致,选root用户, 且两个路径的用户所有均为root
       - /bigdata/test.yml:/usr/share/filebeat/filebeat.yml:ro
       - /fluentd/log/:/logs
 #  video:
