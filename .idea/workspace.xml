@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0a070d26-edf8-49c5-8769-6c6915158112" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/zookeeper/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/zookeeper/docker-compose.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -153,7 +152,7 @@
       <workItem from="1574821872656" duration="35029000" />
       <workItem from="1575015937946" duration="8751000" />
       <workItem from="1575426895581" duration="110000" />
-      <workItem from="1575427370972" duration="1251000" />
+      <workItem from="1575427370972" duration="1941000" />
     </task>
     <servers />
   </component>

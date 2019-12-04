@@ -1,7 +1,7 @@
 version: '3'
 services:
   test:
-    restart: always
+#    restart: always
     image: elastic/filebeat:6.4.3
     user: root
     volumes:
