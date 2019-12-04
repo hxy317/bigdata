@@ -12,7 +12,7 @@
         - "9092:9092"
       environment:
         KAFKA_BROKER_ID: 1
-        KAFKA_ADVERTISED_HOST_NAME: 192.168.200.89
+        KAFKA_ADVERTISED_HOST_NAME: 127.0.0.1 #最好是本机ip地址,docker 访问时使用本机ip
         KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
         KAFKA_LOG_MESSAGE_TIMESTAMP_TYPE: LogAppendTime
         KAFKA_LOG_RETENTION_MS: 1000
