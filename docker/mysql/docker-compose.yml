@@ -7,5 +7,5 @@ services:
     ports:
       - 3306:3306
     volumes:
-      - './my.cnf:/etc/my.cnf'
+      - './my.cnf:/etc/mysql/my.cnf'
       - '/home/huixinyu/bigdata/mysql/lib:/var/lib/mysql'
