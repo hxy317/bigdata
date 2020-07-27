@@ -1,7 +1,7 @@
 version: '2'
 services:
   mysql-bigdata:
-    image: mysql:8.0.17
+    image: mysql
     environment:
       MYSQL_ROOT_PASSWORD: 123456
     ports:
