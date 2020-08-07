@@ -8,4 +8,4 @@ services:
       - 3306:3306
     volumes:
       - './my.cnf:/etc/mysql/my.cnf'
-      - '/home/huixinyu/bigdata/mysql/lib:/var/lib/mysql'
+      - '/Users/mac/ProjectsFile/mysql/lib:/var/lib/mysql'
