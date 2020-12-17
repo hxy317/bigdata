@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0a070d26-edf8-49c5-8769-6c6915158112" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com.bigdata/Fluent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docker/mysql/etc" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -71,18 +71,18 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/docker" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.bigdata" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker/mysql/etc" />
       <recent name="$PROJECT_DIR$/docker/filebeat/config" />
       <recent name="$PROJECT_DIR$/docker/filebeat" />
       <recent name="$PROJECT_DIR$/docker" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/mysql" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bigdata" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Test (1)">
@@ -182,7 +182,11 @@
       <workItem from="1592386263072" duration="1657000" />
       <workItem from="1595821348710" duration="875000" />
       <workItem from="1596768285075" duration="590000" />
-      <workItem from="1596787114455" duration="2771000" />
+      <workItem from="1596787114455" duration="3131000" />
+      <workItem from="1607653805039" duration="195000" />
+      <workItem from="1607654871016" duration="240000" />
+      <workItem from="1607675054530" duration="528000" />
+      <workItem from="1608106763814" duration="3603000" />
     </task>
     <servers />
   </component>
@@ -202,30 +206,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1388" height="232" key="GridCell.Tab.0.bottom" timestamp="1596787552963">
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1608108935514">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1608107022748" />
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1608108935514" />
+    <state x="536" y="87" key="VCS.ChangeListViewerDialog" timestamp="1608107050897">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="232" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596787552963" />
-    <state width="1388" height="232" key="GridCell.Tab.0.center" timestamp="1596787552962">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1388" height="232" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596787552962" />
-    <state width="1388" height="232" key="GridCell.Tab.0.left" timestamp="1596787552961">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1388" height="232" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596787552961" />
-    <state width="1388" height="232" key="GridCell.Tab.0.right" timestamp="1596787552962">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1388" height="232" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596787552962" />
-    <state x="302" y="92" key="RollbackChangesDialog" timestamp="1596790125277">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="302" y="92" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1596790125277" />
-    <state x="80" y="0" key="SettingsEditor" timestamp="1596790255781">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="80" y="0" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1596790255781" />
-    <state x="80" y="23" key="SettingsEditor/0.23.1440.829@0.23.1440.829" timestamp="1596787262327" />
+    <state x="536" y="87" key="VCS.ChangeListViewerDialog/0.0.1440.900@0.0.1440.900" timestamp="1608107050897" />
   </component>
 </project>

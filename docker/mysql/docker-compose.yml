@@ -6,6 +6,6 @@ services:
       MYSQL_ROOT_PASSWORD: 123456
     ports:
       - 3306:3306
-#    volumes:
-#      - './my.cnf:/etc/mysql/my.cnf'
+    volumes:
+      - './etc/mysql:/etc/mysql'
 #      - '/Users/mac/ProjectsFile/mysql/lib:/var/lib/mysql'
